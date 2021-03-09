@@ -32,7 +32,7 @@ while True:
 
     cv2.imshow("frame", frame)
     cv2.imshow("mask", mask)
-
+    cv2.imshow("Result", result)
     if cv2.waitKey(1) == ord('q'):
         break
 
